@@ -19,7 +19,15 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-
+    
+    //Turn on the debug options
+    self.sceneView.debugOptions =
+        ARSCNDebugOptionShowWorldOrigin |
+        ARSCNDebugOptionShowFeaturePoints;
+    
+    // Stop the screen from dimming while we are using the app
+    [UIApplication.sharedApplication setIdleTimerDisabled:YES];
+    
     // Set the view's delegate
     self.sceneView.delegate = self;
     

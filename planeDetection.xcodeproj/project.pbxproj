@@ -16,6 +16,7 @@
 		EB97D60F1F33931E0062B2E1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = EB97D60E1F33931E0062B2E1 /* main.m */; };
 		EB97D6191F33931E0062B2E1 /* planeDetectionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB97D6181F33931E0062B2E1 /* planeDetectionTests.m */; };
 		EB97D6241F33931E0062B2E1 /* planeDetectionUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = EB97D6231F33931E0062B2E1 /* planeDetectionUITests.m */; };
+		EB97D6321F33E95F0062B2E1 /* Config.m in Sources */ = {isa = PBXBuildFile; fileRef = EB97D6311F33E95F0062B2E1 /* Config.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		EB97D61F1F33931E0062B2E1 /* planeDetectionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = planeDetectionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EB97D6231F33931E0062B2E1 /* planeDetectionUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = planeDetectionUITests.m; sourceTree = "<group>"; };
 		EB97D6251F33931E0062B2E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB97D6311F33E95F0062B2E1 /* Config.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Config.m; sourceTree = "<group>"; };
+		EB97D6331F33E9CB0062B2E1 /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +106,7 @@
 		EB97D5FC1F33931E0062B2E1 /* planeDetection */ = {
 			isa = PBXGroup;
 			children = (
+				EB97D6331F33E9CB0062B2E1 /* Config.h */,
 				EB97D5FD1F33931E0062B2E1 /* AppDelegate.h */,
 				EB97D5FE1F33931E0062B2E1 /* AppDelegate.m */,
 				EB97D6001F33931E0062B2E1 /* art.scnassets */,
@@ -113,6 +117,7 @@
 				EB97D60A1F33931E0062B2E1 /* LaunchScreen.storyboard */,
 				EB97D60D1F33931E0062B2E1 /* Info.plist */,
 				EB97D60E1F33931E0062B2E1 /* main.m */,
+				EB97D6311F33E95F0062B2E1 /* Config.m */,
 			);
 			path = planeDetection;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EB97D6041F33931E0062B2E1 /* ViewController.m in Sources */,
+				EB97D6321F33E95F0062B2E1 /* Config.m in Sources */,
 				EB97D60F1F33931E0062B2E1 /* main.m in Sources */,
 				EB97D5FF1F33931E0062B2E1 /* AppDelegate.m in Sources */,
 			);
