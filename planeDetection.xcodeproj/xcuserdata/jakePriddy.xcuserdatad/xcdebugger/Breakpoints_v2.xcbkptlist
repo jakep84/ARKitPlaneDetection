@@ -10,11 +10,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "planeDetection/ViewController.m"
-            timestampString = "523494902.36881"
+            timestampString = "523497288.632091"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "58"
-            endingLineNumber = "58"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "-viewWillDisappear:"
             landmarkType = "7">
          </BreakpointContent>

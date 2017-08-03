@@ -20,10 +20,16 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    // Create a new scene
+    SCNScene *scene = [SCNScene sceneNamed:@"art.scnassets/ship.scn"];
+    
+    // Set the scene to the view
+    self.sceneView.scene = scene;
+    
     //Turn on the debug options
     self.sceneView.debugOptions =
-        ARSCNDebugOptionShowWorldOrigin |
-        ARSCNDebugOptionShowFeaturePoints;
+    //ARSCNDebugOptionShowWorldOrigin |
+    ARSCNDebugOptionShowFeaturePoints;
     
     // Stop the screen from dimming while we are using the app
     [UIApplication.sharedApplication setIdleTimerDisabled:YES];
@@ -34,11 +40,6 @@
     // Show statistics such as fps and timing information
     self.sceneView.showsStatistics = YES;
     
-    // Create a new scene
-    SCNScene *scene = [SCNScene sceneNamed:@"art.scnassets/ship.scn"];
-    
-    // Set the scene to the view
-    self.sceneView.scene = scene;
 }
 
 - (void)viewWillAppear:(BOOL)animated {
